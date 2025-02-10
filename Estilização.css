@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&family=Londrina+Sketch&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+        background-color: #f8fdfb;
+        color: #235c40;
+        font-family: "Jura", serif;
+        font-weight: 400;
+    }
+
+
+    header {
+        padding: 2.5rem;  
+        background-color: #64ff0a;
+        text-align: center;
+        font-size: 2rem;
+}
+
+p {
+     font-size: 1.5rem;
+     
+}
+
+    main {
+
+        padding: 2.5rem;
+        display: flex; 
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 1.5rem;
+}
+
+        input[ type="radio"] {
+        accent-color: #64ff0a;
+        outline: none;
+    }
+
+       input[type="text"], input[type="email"] {
+            width: 20%;
+            padding: 1rem;
+            border: 2px solid #46ab0c;
+            border-radius: 100px;
+            background-color: transparent;
+       }
+
+       input::placeholder {
+
+            color: #6bdf28;
+       }
+
+       img {
+
+            width: 35rem;
+            border-radius: 05px;
+            border: 2px solid #46ab0c;
+       }
+
+       details{
+            background-color: #8ee4bb;
+            border-radius: 10px;
+            padding: 1rem;
+       }
+
+       fieldset {
+            border: 1.5px solid #46ab0c;
+            border-radius: 05px;
+            padding: 1rem;
+             
+            
+ 
+       }
+
+       legend {
+        padding: 0 0.5rem; 
+        
+       }
+
+       button {
+
+          background-color: #46ab0c;
+          padding: 0.5rem;
+          border-radius: 10px;
+          border: none;
+          cursor: pointer;
+       }
+
+    footer a {
+          text-decoration: none;     
+
+    }   
+     
+    
+    .rodape {
+
+          color: #d96403;
+          padding: 1rem;
+          text-align: center;
+          font-size: small; 
+     }
+
+
+       
